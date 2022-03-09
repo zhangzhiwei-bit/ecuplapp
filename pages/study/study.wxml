@@ -1,0 +1,51 @@
+<view class="header">
+<view>公告、注意事项、操作手册</view>
+</view>
+<view class="contents">
+  <view class='page_row'>
+<view class="search">
+  <view class="df search_arr">
+  <icon class="searchcion" size='20' type='search'></icon>
+  <input class=""  placeholder="目标院校查询" value="{{searchValue}}"/>
+  </view>
+</view>
+<view class='sousuo'>查询</view>
+  </view>
+  <view style="margin-left: 20rpx; margin-top: 20rpx;">想用时间币获得什么咨询？</view>
+  <view class="services">
+    <view class="service">考研考校咨询</view>
+    <view class="service">各地实习信息</view>
+    <view class="service">各地考公咨询</view>
+    <view class="service">出国交流咨询</view>
+  </view>
+ 
+</view>
+<view class="footer">
+  <view class="orders">
+    <view style="font-weight: bold;margin-left: 40rpx;">最新订单</view>
+    <view class="order">
+      <view class="icons">研</view>
+      <view class="words">XXX学校考研咨询</view>
+      <view class="prices">
+        <view class="price">￥20.00</view>
+        <view class="priorder">待抢单</view>
+      </view>
+    </view>
+    <view class="order">
+      <view class="icons">研</view>
+      <view class="words">XXX学校考研咨询</view>
+      <view class="prices">
+        <view class="price">￥20.00</view>
+        <view class="priorder">待抢单</view>
+      </view>
+    </view>
+    <view class="order">
+      <view class="icons">研</view>
+      <view class="words">XXX学校考研咨询</view>
+      <view class="prices">
+        <view class="price">￥20.00</view>
+        <view class="priorder">待抢单</view>
+      </view>
+    </view>
+  </view>
+</view>

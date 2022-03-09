@@ -1,0 +1,101 @@
+/**index.wxss**/
+.header{
+  padding-bottom: 40rpx;
+  padding-top: 40rpx;
+  border: solid #74acff 8rpx;
+  border-radius: 15rpx;
+}
+.header .title{
+  text-align: center;
+  font-weight: 600;
+  font-size: xx-large;
+}
+.header .qiandao{
+  margin-left: 30rpx;
+  border: gray solid 5rpx;
+  font-size: large;
+}
+.page_row{
+  margin-top: 10rpx;
+  text-align: center;
+  margin-right: 15rpx;
+}
+.search{
+  width: 80%;
+ }
+ .search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+ }
+ .search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+ }
+ .bc_text {
+  line-height: 68rpx;
+  height: 68rpx;
+  margin-top: 34rpx;
+ }
+  
+ .sousuo {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+ }
+ .page_row{
+  display: flex;
+  flex-direction: row
+ }
+ .searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left:25rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+ }
+ .items{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+ }
+ .item{
+  width: 80%;
+  padding: 10rpx;
+  text-align: center;
+  background-color: #fff;
+  margin: 20rpx 10rpx;
+  border-radius: 6rpx;
+ }
+ #choose{
+   background-color: #74acff;
+ }
+ .contents{
+   width: 90%;
+   margin: auto;
+   margin-top: 25rpx;
+   border-radius: 15rpx;
+   background-color: #eeeeee;
+ }
+ .content{
+   text-align: center;
+   border-bottom:rgba(80, 80, 80, 1) solid 2rpx;
+ }
+ .theme{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+ }
+ .icon{
+   background-color: gray;
+   width: 100rpx;
+   height: 100rpx;
+   border-radius: 50rpx;
+ }

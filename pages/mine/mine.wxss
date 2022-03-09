@@ -1,0 +1,123 @@
+.user_info_wrap{
+  height: 45vh;
+  background-color: #e5e5e5;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.user_bg{
+  position: relative;
+  height: 50vh;
+  /* 高斯模糊 */
+  filter: blur(10rpx);
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+  text-align: center;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color: #fff;
+  margin-top: 40rpx;
+  /* font-size: 40rpx; */
+}
+.user_btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  border: 1rpx solid greenyellow;
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user_content{
+  position: relative;
+  background-color: #e5e5e5;
+}
+.user_main{
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+  color: #666;
+  padding-bottom: 100rpx;
+}
+.iconfont{
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.address_wrap{
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx ;
+}
+.app_info_wrap{
+  margin-top: 30rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.app_info_item{
+  padding: 20rpx;
+  border: 1rpx solid #ccc;
+}
+.app_info_contact{
+  display: flex;
+  justify-content: space-between;
+}
+.recommend_wrap{
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 15rpx;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30rpx;
+}
+.item image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.item text{
+  color: rgba(55, 54, 54, 0.9928571428571429);
+	font-size: 13px;
+}
+.recommend_wrap{
+  border: solid #e5e5e5 3rpx;
+}
+.member{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid #e5e5e5 4rpx;
+}
+.member .words{
+  font-size: smaller;
+}
+.shops{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid #e5e5e5 4rpx;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,45 @@
+<view class="header">
+  <view class="tx1">攒局速成手册</view>
+  <view class="tx2">萌新必看</view>
+</view>
+<view class="btn">
+  <button class="btn1">我加入的局</button>
+  <button class="btn2" >发起攒局</button>
+</view>
+<view class="titles">
+  <view>有空位</view>
+  <view class="title">
+    <view>学习（4）</view>
+    <view>运动（10）</view>
+    <view bindtap="chooseint">兴趣（10）</view>
+  </view>
+</view>
+<view wx:if="{{ischoose}}" class="inters">
+    <view class="int">电影</view>
+    <view class="int">聚餐</view>
+    <view class="int">游戏</view>
+    <view class="int">旅行</view>
+    <view class="int">拼车</view>
+  </view>
+<view class="contents">
+  <view class="content">
+    <view class="classfi">运动</view>
+    <view class="word">XXXXXXXXXX</view>
+  </view>
+  <view class="content">
+    <view class="classfi">运动</view>
+    <view class="word">XXXXXXXXXX</view>
+  </view>
+  <view class="content">
+    <view class="classfi">运动</view>
+    <view class="word">XXXXXXXXXX</view>
+  </view>
+  <view class="content">
+    <view class="classfi">运动</view>
+    <view class="word">XXXXXXXXXX</view>
+  </view>
+  <view class="content">
+    <view class="classfi">运动</view>
+    <view class="word">XXXXXXXXXX</view>
+  </view>
+</view>

@@ -1,0 +1,99 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200rpx;
+  border-bottom: solid #e5e5e5 5rpx;
+  font-size: x-large;
+  font-weight: bold;
+}
+.search{
+  width: 80%;
+ }
+ .search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+ }
+ .search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+ }
+ .bc_text {
+  line-height: 68rpx;
+  height: 68rpx;
+  margin-top: 34rpx;
+ }
+  
+ .sousuo {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+ }
+ .page_row{
+   margin-top: 30rpx;
+   margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: row
+ }
+ .searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left:25rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+ }
+ .services{
+   margin: auto;
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ .service{
+   width: 300rpx;
+   text-align: center;
+   margin-top: 40rpx;
+   border: solid #e5e5e5 2rpx;
+   border-radius: 5rpx;
+ }
+ .contents{
+   margin-top: 20rpx;
+   padding-bottom: 20rpx;
+  border: solid #e5e5e5 5rpx;
+ }
+ .order{
+   width: 600rpx;
+   margin: auto;
+   margin-top: 15rpx;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: solid #e5e5e5 6rpx;
+   border-radius: 10rpx;
+   padding: 15rpx;
+ }
+ .order .icons{
+   font-size: xx-large;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   width: 100rpx;
+   height: 100rpx;
+   border-radius: 50rpx;
+   background-color: #e5e5e5;
+ }
+ .price{
+   color: red;
+   font-weight: bold;
+}
+.priorder{
+  font-size: small;
+}

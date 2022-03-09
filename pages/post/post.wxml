@@ -1,0 +1,31 @@
+<view class="fb_main">
+  <view class="theme" bindtap="identifytap">
+    <view>选择主题</view>
+    <view>></view>
+  </view>
+  <view class="fb_content">
+    <textarea value="{{textVal}}" bindinput="handleTextInput" placeholder="在此输入正文" name="" id="" cols="30" rows="10"></textarea>
+    <view class="fb_tool">
+      <button id="btn1" size="mini" bindtap="handleChooseImg">添加图片</button>
+      <view class="up_img_item"
+      wx:for="{{chooseImgs}}"
+      wx:key="*this"
+      bindtap="handleRemoveImg"
+      data-index="{{index}}"
+      >
+        <Upimg src="{{item}}"></Upimg>
+      </view>
+    </view>
+    <view class="position">
+      <button size="mini" bindtap="handleChoosePos" style="margin-left: 10rpx;width: 200rpx;height: 50rpx;">选择位置</button>
+      <view class="pos">{{position}}</view>
+    </view>
+  </view>
+  <view class="form_btn_wrap">
+    <button id="btn2" type="warn" size="mini" bindtap="handleFormSubmit">
+      <icon type="success_no_circle" size="23" color="white">
+      </icon>
+      发布
+    </button>
+  </view>
+</view>

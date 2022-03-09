@@ -1,0 +1,59 @@
+<view class="header">
+  <text class="qiandao">签到</text>
+  <view class="title">ECUPL校社</view>
+</view>
+<view class="page_row">
+ <view class="search">
+  <view class="df search_arr">
+  <icon class="searchcion" size='20' type='search'></icon>
+  <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>
+  </view>
+ </view>
+ <view class='sousuo' bindtap="selecttap">筛选</view>
+ <view class='sousuo'>搜索</view>
+ </view>
+
+ <modal class="modal" title="筛选信息" hidden="{{checked}}"
+ bindcancel='modalCancel' bindconfirm="modalConfirm">
+ <Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  <view class="fb_main">
+    <view class="fb_tips" wx:for="{{tabs}}" wx:key="id" >
+      <view wx:if="{{item.isActive}}" class="items">
+        <view wx:for="{{item.content}}" wx:key="*this">
+          <view class="item" id="{{indexl==index? 'choose':'nochoose'}}" bindtap="changeColor" data-index="{{index}}">{{item}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</Tabs>
+ </modal>
+
+<view class="contents">
+  <view class="content">
+  <view class="theme">
+    <view class="icon"></view>
+    <view class="themename">主题名称</view>
+  </view>
+  <view class="text">
+    XXXXX内容(后期由服务器返回数据渲染到页面上)
+  </view>
+  </view>
+  <view class="content">
+  <view class="theme">
+    <view class="icon"></view>
+    <view class="themename">主题名称</view>
+  </view>
+  <view class="text">
+    XXXXX内容(后期由服务器返回数据渲染到页面上)
+  </view>
+  </view>
+  <view class="content">
+  <view class="theme">
+    <view class="icon"></view>
+    <view class="themename">主题名称</view>
+  </view>
+  <view class="text">
+    XXXXX内容(后期由服务器返回数据渲染到页面上)
+  </view>
+  </view>
+</view>

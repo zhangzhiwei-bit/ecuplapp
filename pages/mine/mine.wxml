@@ -1,0 +1,69 @@
+<view class="user_info_wrap">
+  <view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
+    <image class="user_bg" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn" bindtap="getUserProfile">
+    登录
+  </view>
+</view>
+<view class="user_content">
+  <view class="user_main">
+    <view class="items">
+      <view class="item">
+        <image src="/icons/money.png"></image>
+        <text>时间币</text>
+      </view>
+      <view class="item">
+        <image src="/icons/message.png"></image>
+        <text>消息</text>
+      </view>
+      <view class="item">
+        <image src="/icons/_order.png"></image>
+        <text>订单</text>
+      </view>
+      <view class="item">
+        <image src="/icons/bank.png"></image>
+        <text>时间银行</text>
+      </view>
+      
+    </view>
+    
+    <view class="member">
+      <view class="title">
+        平台会员
+      </view>
+      <view class="words">免费领取会员体验卡，尽享权益，免费领取</view>
+    </view>
+
+    <view class="shops">
+      <view >
+        <view style="text-align: center; ">商城</view>
+        <view style="text-align: center;">时间币兑换好礼</view>
+      </view>
+      <view>
+        <view>赚币攻略</view>
+        <view>新手攻略</view>
+      </view>
+    </view>
+
+    <view></view>
+    <!-- 应用信息相关 -->
+    <view class="app_info_wrap">
+      <view class="app_info_item app_info_contact">
+        <text>联系客服</text>
+      </view>
+      <view class="app_info_item">社区规范</view>
+      <view class="app_info_item">新手帮助</view>
+      <view class="app_info_item">邀请校友</view>
+      <view class="app_info_item">意见反馈</view>
+    </view>
+    <!-- 推荐 -->
+    <view class="recommend_wrap">
+      把这个应用推荐给其他人
+    </view>
+  </view>
+</view>
